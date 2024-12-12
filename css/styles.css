@@ -75,6 +75,7 @@ button {
 
 .nav-item-link.current {
   position: relative;
+  color: #404bbf;
 }
 
 .nav-item-link::after {
@@ -131,7 +132,10 @@ button {
     url(../images/img-bg-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px 600px;
+  background-size: cover;
+  max-width: 1440px;
+  height: 600px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -160,7 +164,7 @@ button {
   min-width: 169px;
   height: 56px;
   white-space: nowrap;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -201,6 +205,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
 }
 
 .advantages-list-icon {
@@ -267,7 +272,7 @@ button {
 }
 
 .team-container {
-  padding: 32px 0 0;
+  padding: 32px 0;
   margin-bottom: 8px;
 }
 .team-name {
