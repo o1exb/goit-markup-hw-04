@@ -309,6 +309,7 @@ button {
 
 .team-social-media-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
   padding: 0px 16px 32px;
 }
