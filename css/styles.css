@@ -442,7 +442,6 @@ button {
 
 .footer-container {
   display: flex;
-  gap: 16px;
   align-items: baseline;
 }
 
@@ -462,6 +461,7 @@ button {
 
 .team-social-media-list.footer-edition {
   padding: 0 0;
+  gap: 16px;
 }
 
 .footer-edition .team-social-media-list-item {
